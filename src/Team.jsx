@@ -1,10 +1,11 @@
 import React from "react";
-
+import TeamInageList from "./TeamImageList";
+import TeamImageList from "./TeamImageList";
 const Team = () => {
   return (
-    <>
-      <h1 className="container-fluid my-5 col-10">Welcome Team</h1>
-    </>
+    <div className="container-fluid my-5 col-10 mx-auto">
+      <TeamInageList />
+    </div>
   );
 };
 export default Team;
