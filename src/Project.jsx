@@ -1,19 +1,18 @@
 import React from "react";
 import Card from "./Card";
-import Data from "./Data";
+import Data from "./ProjectData";
 
-const Service = () => {
+const Project = () => {
   return (
     <>
       <div className="my-5">
-        <h1 className="text-center">Our Services</h1>
+        <h1 className="text-center">Our Clients</h1>
       </div>
       <div className="container-fluid mb-5">
         <div className="row">
           <div className="col-10 mx-auto">
-            <h2>Futuristic Software Development Services</h2>
-            <p>We cover every aspect of development through our services.</p>
-            <div className="row gy-4">
+            <h3>Here are our clients and the projects we developed for them...</h3>            
+            <div className="mt-2 row gy-4">
               {Data.map((val, index) => {
                 return (
                   <Card
@@ -31,4 +30,4 @@ const Service = () => {
     </>
   );
 };
-export default Service;
+export default Project;

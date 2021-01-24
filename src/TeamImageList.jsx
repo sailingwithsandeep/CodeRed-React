@@ -1,6 +1,7 @@
 import React from "react";
 import "./Assets/css/TeamImageList.css";
 import TeamMemberData from "./TeamMemberData";
+
 class TeamImageList extends React.Component {
   constructor(props) {
     super(props);
@@ -23,12 +24,12 @@ class TeamImageList extends React.Component {
     const images = imageUrlArray.map(({ name, url }, index) => {
       return (
         <div style={{ gridRowEnd: `span ${this.state.spans}` }}>
-          <img ref={this.imageRef} src={url} alt={name} key={index}></img>
-          <h4 className="text-center mt-1">{name}</h4>
+          <img className="rounded" style={{borderRadius:"30px"}} ref={this.imageRef} src={url} alt={name} key={index}></img>
+          <h4 className="text-center mt-1 mb-4">{name}</h4>
         </div>
       );
     });
-    return <div className="image-list">{images}</div>;
+    return <div className="image-list text-center">{images}</div>;
   }
 }
 

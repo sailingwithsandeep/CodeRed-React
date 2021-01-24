@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2002.355" height="851.568" viewBox="0 0 2002.355 851.568">
+  <g id="logo" transform="translate(-460 -441.512)">
+    <text id="Veena" transform="translate(1958.355 847.512)" fill="#ffc246" font-size="376" font-family="SegoeUI, Segoe UI"><tspan x="-503.506" y="0">Veena</tspan></text>
+    <text id="Exim" transform="translate(1897.765 1199.057)" fill="#282624" font-size="376" font-family="SegoeUI, Segoe UI"><tspan x="-388.852" y="0">Exim</tspan></text>
+    <g id="Group_1" data-name="Group 1">
+      <path id="Path_1" data-name="Path 1" d="M885.042,872.087H999.988L705.748,1190.14H590.8Z" fill="#ffc246" fill-rule="evenodd"/>
+      <path id="Rectangle_4_copy_2" data-name="Rectangle 4 copy 2" d="M1107.01,633.276h114.94L1076.37,788.817H961.421Z" fill="#282624" fill-rule="evenodd"/>
+      <path id="Rectangle_5_copy" data-name="Rectangle 5 copy" d="M576.929,787.826H833.673l-81.255,83.237h-155.4Z" fill="#ffc246" fill-rule="evenodd"/>
+      <path id="Rectangle_4_copy" data-name="Rectangle 4 copy" d="M706.129,1189.67l-115.373.61L496.8,787.766l105.464-.477Z" fill="#ffc246" fill-rule="evenodd"/>
+      <path id="Path_2" data-name="Path 2" d="M460,632.252H969.128l-77.291,83.237H480.086Z" fill="#ffc246" fill-rule="evenodd"/>
+    </g>
+    <path id="Path_3" data-name="Path 3" d="M1260.64,506.823l29.32,67.726V1293.08l-29.32-67.72Z" fill="#ffc246" fill-rule="evenodd"/>
+  </g>
+</svg>

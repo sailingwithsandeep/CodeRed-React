@@ -15,7 +15,7 @@ const Mailto = ({ email, subject, body, children }) => {
 const Contact = () => {
 	return (
 		<>
-			<section id='header' className='mt-3 d-flex align-items-center'>
+			<section id='header' className='d-flex align-items-center mb-5'>
 				<div className='container-fluid '>
 					<div className='row'>
 						<div className='col-10 mx-auto'>
@@ -47,7 +47,7 @@ const Contact = () => {
 										>
 											coderedtechonology2019@gmail.com
 										</Mailto>
-										,
+										
 									</div>
 								</div>
 								<div className='col-lg-6 order-1 order-lg-2 header-img'>

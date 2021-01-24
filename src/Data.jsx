@@ -14,7 +14,7 @@ const Data = [
 	},
 	{
 		imgsrc: android,
-		title: "Android development",
+		title: "Android Development",
 		description:
 			"We carefully craft the user experience of iOS and Android applications. We are experts at making apps that are easy to use, beautiful and engaging.",
 	},
@@ -32,7 +32,7 @@ const Data = [
 	},
 	{
 		imgsrc: cross,
-		title: "Cross-platform  Development",
+		title: "Cross-Platform  Development",
 		description:
 			"Our cross-platform mobile apps empower clients with multiple benefits and also help to cover a wider audience using devices with different OS. Our cross-platform developers have proven expertise in building affordable, quality and versatile mobile apps with cross-platform technologies",
 	},

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Home = () => {
 	return (
 		<>
-			<section id='header' className='d-flex align-items-center'>
+			<section id='header' className='d-flex align-items-center mb-5'>
 				<div className='container-fluid '>
 					<div className='row'>
 						<div className='col-10 mx-auto'>

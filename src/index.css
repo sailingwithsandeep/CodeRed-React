@@ -1,159 +1,162 @@
 @import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Muli", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Muli", sans-serif;
 }
 
 .navbar {
-  background-color: #fff !important;
+    background-color: #fff !important;
 }
 
 .navbar-brand {
-  font-size: 1.9rem !important;
-  color: #F62217  !important;
+    font-size: 1.9rem !important;
+    color: #F62217 !important;
 }
 
 .navbar a {
-  font-size: 1.3rem;
-  text-transform: capitalize;
+    font-size: 1.3rem;
+    text-transform: capitalize;
 }
 
 .menu_active {
-  font-weight: bold;
-  border-bottom: 1px solid #E55451;
+    font-weight: bold;
+    border-bottom: 1px solid #E55451;
 }
 
 .navbar a:hover {
-  color: #E55451 !important;
+    color: #E55451 !important;
 }
 
 @media (max-width: 991px) {
-  .navbar-brand {
-    font-size: 1.5rem !important;
-  }
-
-  .menu_active {
-    font-weight: bold;
-    border-bottom: none;
-  }
+    .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+    .menu_active {
+        font-weight: bold;
+        border-bottom: none;
+    }
 }
+
 
 /* ==========================================================================
 #Main Landing Section
 ========================================================================== */
 
 #header {
-  width: 100%;
-  height: 80vh;
-  margin-top: 70px;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
 }
 
 #header h1 {
-  margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
-  color: black;
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
 }
 
 #header .brand-name {
-  color: #F62217;
+    color: #F62217;
 }
 
 #header h2 {
-  color: #484848;
-  font-size: 24px;
+    color: #484848;
+    font-size: 24px;
 }
 
 #header .btn-get-started {
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 30px;
-  border-radius: 50px;
-  transition: 0.5s;
-  color: #F62217;
-  border: 2px solid #F62217;
-  text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #F62217;
+    border: 2px solid #F62217;
+    text-decoration: none;
 }
 
 #header .btn-get-started:hover {
-  background: #F62217;
-  color: #fff;
+    background: #F62217;
+    color: #fff;
 }
 
 .header-img {
-  text-align: right;
+    text-align: right;
 }
 
 #header .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 @-webkit-keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
 }
 
 @keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
 }
+
 
 /* ////////Contact ////////////
  */
 
 .contact_div {
-  width: 100%;
-  height: 75vh;
+    width: 100%;
+    height: 75vh;
 }
+
 
 /* /// footer///////////////////// */
 
 footer p {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
+
 
 /* responsive code */
 
 @media (max-width: 991px) {
-  #header {
-    height: 80vh;
-    text-align: center;
-  }
-
-  #header .header-img {
-    text-align: center;
-  }
-  #header .header-img img {
-    width: 60%;
-  }
+    #header {
+        /* height: 80vh; */
+        text-align: center;
+    }
+    #header .header-img {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #header .header-img img {
+        width: 60%;
+    }
 }
 
 @media (max-width: 768px) {
-  #header {
-    margin-top: 20px;
-  }
-  #header h1 {
-    font-size: 28px;
-  }
-  #header h2 {
-    font-size: 18px;
-    margin-bottom: 30px;
-  }
-  #header .header-img img {
-    width: 70%;
-  }
+    #header {
+        margin-top: 20px;
+    }
+    #header h1 {
+        font-size: 28px;
+    }
+    #header h2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    #header .header-img img {
+        width: 70%;
+    }
 }
