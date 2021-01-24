@@ -30,8 +30,8 @@ const Home = () => {
 										amazing business comforts
 									</h2>
 									<div className='mt-3 '>
-										<NavLink to='/service' className='btn-get-started'>
-											Get Started
+										<NavLink to='/contact' className='btn-get-started'>
+											Contact Us
 										</NavLink>
 									</div>
 								</div>
@@ -39,11 +39,11 @@ const Home = () => {
 									<img src={web} className='img-fluid animated' alt='' />
 								</div>
 							</div>
-							<div className='row'>
+							{/* <div className='row'>
 								<div className='col-lg-6 order-1 order-lg-2 header-img'>
 									<img src={ways} className='img-fluid animated' alt='' />
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>

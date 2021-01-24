@@ -1,13 +1,12 @@
-import MiraHandicraft from './Assets/projects/MiraHandicraft.jpg'
-import SMI from './Assets/projects/ShriMaaImitation.png'
-import VeenaExim from './Assets/projects/veenaexim.svg'
-import IshwarMobile from './Assets/projects/Ishwar Mobile.png'
-import Mak from './Assets/projects/mak.png'
-import Dwija from './Assets/projects/dwija.png'
-import Novateor from './Assets/projects/novateor.jpg'
-import Madhudhara from './Assets/projects/madhudhara.jpg'
-import ITC from './Assets/projects/no-logo.svg'
-
+import MiraHandicraft from "./Assets/projects/MiraHandicraft.jpg";
+import SMI from "./Assets/projects/ShriMaaImitation.png";
+import VeenaExim from "./Assets/projects/veenaexim.svg";
+import IshwarMobile from "./Assets/projects/Ishwar Mobile.png";
+import Mak from "./Assets/projects/mak.png";
+import Dwija from "./Assets/projects/dwija.png";
+import Novateor from "./Assets/projects/novateor.jpg";
+import Madhudhara from "./Assets/projects/madhudhara.jpg";
+import ITC from "./Assets/projects/no-logo.svg";
 
 const Data = [
 	{
@@ -30,12 +29,12 @@ const Data = [
 	{
 		imgsrc: IshwarMobile,
 		title: "Ishwar Mobile",
-		description: "",
+		description: "We have developed and are maintaining the company website...",
 	},
 	{
 		imgsrc: Mak,
 		title: "Mak Associates",
-		description: "",
+		description: "We have developed and are maintaining the company website...",
 	},
 	{
 		imgsrc: Dwija,
